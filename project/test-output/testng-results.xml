@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="5" total="8" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="19695" started-at="2019-10-14T14:53:33Z" finished-at="2019-10-14T14:53:53Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="19695" started-at="2019-10-14T14:53:33Z" finished-at="2019-10-14T14:53:53Z">
+      <class name="com.atmecs.testbase.TestBase">
+        <test-method status="PASS" signature="intitailizeBrowser()[pri:0, instance:com.atmecs.testbase.TestBase@5bcab519]" name="intitailizeBrowser" is-config="true" duration-ms="15190" started-at="2019-10-14T14:53:18Z" finished-at="2019-10-14T14:53:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- intitailizeBrowser -->
+      </class> <!-- com.atmecs.testbase.TestBase -->
+      <class name="com.atmecs.testscripts.ProductSearchTestScripts">
+        <test-method status="PASS" signature="productSearchScript(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:com.atmecs.testscripts.ProductSearchTestScripts@e45f292]" name="productSearchScript" duration-ms="2271" started-at="2019-10-14T14:53:34Z" data-provider="Dpdninput" finished-at="2019-10-14T14:53:36Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Games]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[call of duty]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Call Of Duty]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[$39.99]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- productSearchScript -->
+        <test-method status="PASS" signature="negativesearch(java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:com.atmecs.testscripts.ProductSearchTestScripts@e45f292]" name="negativesearch" duration-ms="3214" started-at="2019-10-14T14:53:36Z" data-provider="Negatveinput" finished-at="2019-10-14T14:53:39Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Games]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[xyx]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[There are no available products.]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- negativesearch -->
+      </class> <!-- com.atmecs.testscripts.ProductSearchTestScripts -->
+      <class name="com.atmecs.testscripts.SecondScenerio">
+        <test-method status="PASS" signature="select(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:3, instance:com.atmecs.testscripts.SecondScenerio@5f2108b5]" name="select" duration-ms="13248" started-at="2019-10-14T14:53:39Z" data-provider="content" finished-at="2019-10-14T14:53:53Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Kindle Fire HD]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[De'Longhi BCO 410]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[World's most advanced 7" tablet]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[ BCO 410 is a 15]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Add your product specifications here]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Add your product specifications here]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Rating: high to low]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[Rating: low to high]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- select -->
+      </class> <!-- com.atmecs.testscripts.SecondScenerio -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
